@@ -11,19 +11,19 @@ public class Earthquake {
         return mMag;
     }
 
-    public String getCity() {
+    String getCity() {
         return mCity;
     }
 
-    public long getTimeInMilliseconds() {
+    long getTimeInMilliseconds() {
         return mTimeInMilliseconds;
     }
 
-    public String getUrl() {
+    String getUrl() {
         return mUrl;
     }
 
-    public Earthquake(double mag, String city, long timeInMilliseconds, String url) {
+    Earthquake(double mag, String city, long timeInMilliseconds, String url) {
 
         mMag = mag;
         mCity = city;

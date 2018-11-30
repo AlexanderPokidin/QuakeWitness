@@ -13,7 +13,6 @@
         android:background="@drawable/magnitude_circle"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="4.5"
         android:textColor="@android:color/white"
         android:textSize="16sp" />
 
@@ -31,7 +30,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            android:text="Near"
+            android:text="@string/near"
             android:textColor="@color/textColorEarthquakeDetails"
             android:textSize="16sp" />
 
@@ -41,7 +40,6 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            android:text="Moscow"
             android:textColor="@color/textColorEarthquakeLocation"
             android:textSize="16sp" />
     </LinearLayout>
@@ -59,7 +57,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="Mar 6, 2010"
             android:textColor="@color/textColorEarthquakeDetails"
             android:textSize="12sp" />
 
@@ -68,7 +65,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="3:00 PM"
             android:textColor="@color/textColorEarthquakeDetails"
             android:textSize="12sp" />
     </LinearLayout>

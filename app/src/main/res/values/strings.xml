@@ -33,5 +33,6 @@
     <!-- Label for order-by most recent option -->
     <string name="settings_order_by_most_recent_label">Most Recent</string>
     <string name="settings_order_by_most_recent_value">time</string>
+    <string name="near">Near</string>
 
 </resources>
